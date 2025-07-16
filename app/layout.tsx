@@ -26,14 +26,14 @@ export const metadata: Metadata = {
     address: false,
     telephone: false,
   },
-  metadataBase: new URL("https://satah-jeddah.com"),
+  metadataBase: new URL("https://xn--ogbgbkqy0j.com"),
   alternates: {
-    canonical: "https://satah-jeddah.com",
+    canonical: "https://xn--ogbgbkqy0j.com",
   },
   openGraph: {
     title: "سطحة جدة | خدمة نقل السيارات الموثوقة",
     description: "خدمة سطحة موثوقة وسريعة في جميع أحياء جدة",
-    url: "https://satah-jeddah.com",
+    url: "https://xn--ogbgbkqy0j.com",
     siteName: "سطحة جدة",
     locale: "ar_SA",
     type: "website",
