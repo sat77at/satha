@@ -262,11 +262,11 @@ export default async function HomePage() {
                 <h3 className="text-xl font-bold mb-2 text-gray-900">اتصال هاتفي</h3>
                 <p className="text-gray-600 mb-4">لخدمة سريعة وفورية</p>
                 <a
-                  href="tel:+966501234567"
+                  href="tel:0559449938"
                   className="bg-green-500 hover:bg-green-600 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2"
                 >
                   <Phone className="h-5 w-5" />
-                  <span>+966 50 123 4567</span>
+                  <span>الاتصال الان</span>
                 </a>
               </div>
               <div className="bg-white rounded-lg shadow-md p-6 flex flex-col items-center">
@@ -274,7 +274,7 @@ export default async function HomePage() {
                 <h3 className="text-xl font-bold mb-2 text-gray-900">تواصل واتساب</h3>
                 <p className="text-gray-600 mb-4">للاستفسارات أو طلب الخدمة كتابيًا</p>
                 <a
-                  href="https://wa.me/966501234567"
+                  href="https://wa.me/966559449938"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg font-semibold transition-colors flex items-center justify-center space-x-2"
@@ -314,7 +314,7 @@ export default async function HomePage() {
                 <span>انقر للاتصال</span>
               </a>
               <a
-                href="https://wa.me/966501234567"
+                href="https://wa.me/966559449938"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
