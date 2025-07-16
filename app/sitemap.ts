@@ -2,7 +2,7 @@ import type { MetadataRoute } from "next"
 import { districts } from "@/lib/districts"
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://satah-jeddah.com"
+  const baseUrl = "https://xn--ogbgbkqy0j.com"
 
   const districtRoutes = districts.flatMap((district) => [
     {
