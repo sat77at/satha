@@ -81,7 +81,7 @@ export default function RootLayout({
         <SchemaMarkup schemas={[getBaseOrganizationSchema(), getWebSiteSchema()]} />
         {children}
         <Footer />
-        <Toaster /> {/* <--- إضافة هذا السطر */}
+{/*         <Toaster /> {/* <--- إضافة هذا السطر */} */}
       </body>
     </html>
   )
