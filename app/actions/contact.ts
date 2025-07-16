@@ -5,7 +5,7 @@ import { Resend } from "resend" // Import Resend
 
 // Initialize Resend client
 const resend = new Resend(process.env.RESEND_API_KEY)
-const SENDER_EMAIL = process.env.EMAIL_FROM || "onboarding@resend.dev" // Use a default if not set
+const SENDER_EMAIL = process.env.EMAIL_FROM || "support@satha.com" // Use a default if not set
 
 export async function submitContactForm(formData: FormData) {
   const supabase = createClient()
