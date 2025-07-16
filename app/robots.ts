@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: "/private/",
     },
-    sitemap: "https://satah-jeddah.com/sitemap.xml",
+    sitemap: "https://xn--ogbgbkqy0j.com/sitemap.xml",
   }
 }
