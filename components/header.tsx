@@ -35,14 +35,14 @@ export default function Header() {
 
           <div className="flex items-center space-x-4">
             <a
-              href="tel:+966501234567"
+              href="tel:0559449938"
               className="flex items-center space-x-2 bg-green-500 hover:bg-green-600 px-4 py-2 rounded-lg transition-colors"
             >
               <Phone className="h-4 w-4" />
               <span className="hidden sm:inline">اتصل الآن</span>
             </a>
             <a
-              href="https://wa.me/966501234567"
+              href="https://wa.me/966559449938"
               target="_blank"
               rel="noopener noreferrer"
               className="bg-green-600 hover:bg-green-700 px-4 py-2 rounded-lg transition-colors"
