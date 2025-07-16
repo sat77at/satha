@@ -76,14 +76,14 @@ export default async function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+966501234567"
+                href="tel:0559449938"
                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center space-x-2"
               >
                 <Phone className="h-5 w-5" />
                 <span>اتصل الآن</span>
               </a>
               <a
-                href="https://wa.me/966501234567"
+                href="https://wa.me/966559449938"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors"
@@ -307,11 +307,11 @@ export default async function HomePage() {
             </p>
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <a
-                href="tel:+966501234567"
+                href="tel:0559449938"
                 className="bg-green-500 hover:bg-green-600 text-white px-8 py-4 rounded-lg text-lg font-semibold transition-colors flex items-center justify-center space-x-2"
               >
                 <Phone className="h-5 w-5" />
-                <span>+966 50 123 4567</span>
+                <span>انقر للاتصال</span>
               </a>
               <a
                 href="https://wa.me/966501234567"
