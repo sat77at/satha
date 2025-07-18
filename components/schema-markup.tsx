@@ -24,6 +24,7 @@ export default function SchemaMarkup({ schemas = [] }: SchemaMarkupProps) {
         <script
           key={index}
           type="application/ld+json"
+          defer
           dangerouslySetInnerHTML={{
             __html: JSON.stringify(schema).replace(/</g, "\\u003c"), // Sanitize for XSS
           }}

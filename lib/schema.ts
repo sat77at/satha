@@ -11,8 +11,8 @@ import type {
 } from "schema-dts"
 import type { District } from "./districts"
 
-const BASE_URL = "https://satah-jeddah.com"
-const PHONE_NUMBER = "+966501234567"
+const BASE_URL = "https://xn--ogbgbkqy0j.com"
+const PHONE_NUMBER = "+966559449938"
 
 export const getBaseOrganizationSchema = (): WithContext<Organization> => ({
   "@context": "https://schema.org",
@@ -23,22 +23,22 @@ export const getBaseOrganizationSchema = (): WithContext<Organization> => ({
   contactPoint: {
     "@type": "ContactPoint",
     telephone: PHONE_NUMBER,
-    contactType: "customer service",
+    contactType: "Customer Service",
     areaServed: "SA",
-    availableLanguage: ["Arabic", "English"],
+    availableLanguage: ["Arabic"],
   },
   sameAs: [
-    // Add social media links here if available
     // "https://facebook.com/satahjeddah",
-    // "https://twitter.com/satahjeddah",
+    "https://twitter.com/sathahapp",
   ],
 })
 
 export const getWebSiteSchema = (): WithContext<WebSite> => ({
   "@context": "https://schema.org",
   "@type": "WebSite",
-  url: BASE_URL,
   name: "سطحة جدة",
+  url: BASE_URL,
+  inLanguage: "ar",
   potentialAction: {
     "@type": "SearchAction",
     target: {
