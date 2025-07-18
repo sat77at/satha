@@ -6,7 +6,7 @@ export default function Hero() {
     return (
         <section role="region" aria-label="قسم المقدمة - سطحة جدة" className=" backdrop-blur-lg shadow-g rounded text-white font-bold py-20">
             <div className="absolute inset-0 -z-50">
-                <Image src="images/satha3.jpg" alt="سطحة جدة أثناء تقديم الخدمة" layout="fill" className="object-cover opacity-70" priority />
+                <Image src="/images/satha3.jpg" alt="سطحة جدة أثناء تقديم الخدمة" fill priority sizes='100vw' className="object-cover opacity-70" />
                 <div className={`absolute inset-0 bg-black/70`} />
             </div>
             <div className="container mx-auto px-4 text-center">
