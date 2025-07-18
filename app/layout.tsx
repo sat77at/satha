@@ -6,7 +6,6 @@ import Header from "@/components/header"
 import Footer from "@/components/footer"
 import { getBaseOrganizationSchema, getWebSiteSchema } from "@/lib/schema"
 import SchemaMarkup from "@/components/schema-markup"
-import { Toaster } from "@/components/ui/toaster" // <--- إضافة هذا السطر
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -57,7 +56,7 @@ export const metadata: Metadata = {
       "max-snippet": -1,
     },
   },
-    generator: 'v0.dev'
+    generator: 'سطحة جدة',
 }
 
 export default function RootLayout({
@@ -75,13 +74,12 @@ export default function RootLayout({
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </head>
-      <body className={`${inter.className} antialiased bg-gray-50`}>
+      <body className={`${inter.className} antialiased scroll-smooth bg-gray-100`}>
         <Header />
         {/* Global Schema.org JSON-LD */}
         <SchemaMarkup schemas={[getBaseOrganizationSchema(), getWebSiteSchema()]} />
         {children}
         <Footer />
-{/*         <Toaster /> {/* <--- إضافة هذا السطر */} */}
       </body>
     </html>
   )

@@ -5,7 +5,7 @@ import { Phone, MapPin, Menu, X } from "lucide-react"
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
   return (
-    <header itemScope itemType="https://schema.org/LocalBusiness" className="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg">
+    <header itemScope itemType="https://schema.org/LocalBusiness" className="bg-gradient-to-r from-blue-600 to-blue-800 text-white shadow-lg sticky top-0 z-50">
       <div className="px-2 py-2 lg:px-4 lg:py-4">
         <div className="flex items-center justify-between">
           <div className="flex items-center gap-3">
@@ -15,7 +15,7 @@ export default function Header() {
             <div>
               <Link href="/" itemProp="name" aria-label="العودة إلى الصفحة الرئيسية" className="text-2xl font-bold hover:text-blue-200 transition-colors">
                 <span className="sr-only">العودة إلى الرئيسية</span>
-                سطحة جدة
+                <strong>سطحة جدة</strong>
               </Link>
               <p className="text-sm text-blue-100">خدمة نقل سيارات موثوقة داخل جدة</p>
             </div>
